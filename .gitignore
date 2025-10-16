@@ -1,0 +1,36 @@
+.DS_Store
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# OS generated files
+.localized
+
+manuscript/
+submodular/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Experiment outputs
+projected_subgradient/results/
+psg_hd/results/
+two_layer/results/
+two_layer_hd/results/
+
+# Common result folders anywhere in tree (safety net)
+**/results/**
