@@ -34,3 +34,17 @@ two_layer_hd/results/
 
 # Common result folders anywhere in tree (safety net)
 **/results/**
+
+# Latex
+*.aux
+*.log
+*.fls
+*.out
+*.toc
+*.fdb_latexmk
+*.synctex.gz
+*.tex
+*.bib
+*.pdf
+
+.github/
